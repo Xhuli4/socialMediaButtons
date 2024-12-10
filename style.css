@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.container .btn {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.container .btn:hover {
+    width: 200px;
+}
+
+.container .btn .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .btn .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+}
+.container .btn:hover .icon i{
+    color: white;
+}
+.container .btn:nth-child(1):hover .icon{
+    background: black;
+}
+.container .btn:nth-child(2):hover .icon{
+    background: #1877F2;
+}
+.container .btn:nth-child(3):hover .icon{
+    background: linear-gradient(135deg, 
+                               #515BD4, 
+                               #8134AF, 
+                               #FF0050,
+                               #FFDC80);
+}
+.container .btn:nth-child(4):hover .icon{
+    background: #25D366;
+}
+.container .btn:nth-child(5):hover .icon{
+    background: #181717;
+}
+.container .btn:nth-child(6):hover .icon{
+    background: #FF0000;
+}
+.container .btn span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.container .btn:nth-child(1) span{
+    color: black;
+}
+.container .btn:nth-child(2) span{
+    color: #1877F2;
+}
+.container .btn:nth-child(3) span{
+    color: #9f0290;
+}
+.container .btn:nth-child(4) span{
+    color: #25D366;
+}
+.container .btn:nth-child(5) span{
+    color: #181717;
+}
+.container .btn:nth-child(6) span{
+    color: #FF0000;
+}
